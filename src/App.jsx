@@ -1,7 +1,11 @@
+import Navbar from "./components/Navbar/Navbar";
+
 function App() {
-  return <>
-  <div>This is tailwind css </div>
-  </>;
+  return (
+    <div className="">
+      <Navbar></Navbar>
+    </div>
+  );
 }
 
 export default App;
