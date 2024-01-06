@@ -6,7 +6,7 @@ import DropdownMenu from "./DropDownMenu";
 const Navbar = () => {
   return (
     <nav className="bg-white border-gray-200 dark:bg-gray-900">
-      <div className=" max-w-screen-lg flex  items-center justify-between mx-auto p-4">
+      <div className="  flex  items-center justify-between mx-auto p-4">
         {/* logo */}
         <div className="text-2xl font-bold">Pti</div>
 
