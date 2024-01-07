@@ -1,4 +1,3 @@
-import React from "react";
 import { FiSearch } from "react-icons/fi";
 import { LuUser2 } from "react-icons/lu";
 import DropdownMenu from "./DropDownMenu";
