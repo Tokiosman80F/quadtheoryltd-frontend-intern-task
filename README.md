@@ -1,8 +1,18 @@
-# React + Vite
+# Frontend Developer Intern Task - README
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
 
-Currently, two official plugins are available:
+Welcome to my submission for the Frontend Developer Intern Task! In this project, I have built a webpage based on the provided design, fetched data from the specified API, and implemented a form for adding items. Below, you'll find information on how to use and deploy the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies Used
+
+- React 
+- CSS and Tailwind for styling
+- Context Api
+- React slick
+
+## Deployment
+
+The project is deployed on Netlify.  
+
+[Live Project Link]:  [Live Project Link](https://659bd5856dc36002f68b285e--joyful-trifle-3df86a.netlify.app/)
