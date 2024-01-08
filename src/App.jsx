@@ -3,6 +3,7 @@ import Banner from "./components/Banner/Banner";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Card from "./components/Card/Card";
+import RecommandedCard from "./components/Card/RecommandedCard";
 
 export const FoodDataContext = createContext(null);
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Banner></Banner>
       {/* <Card></Card> */}
       <Card></Card>
+      <RecommandedCard></RecommandedCard>
       </div>
       <Footer></Footer>
     </FoodDataContext.Provider>
