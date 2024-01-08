@@ -25,7 +25,6 @@ function App() {
       <div className="max-w-screen-lg mx-auto">
       <Navbar></Navbar>
       <Banner></Banner>
-      {/* <Card></Card> */}
       <Card></Card>
       <RecommandedCard></RecommandedCard>
       </div>

@@ -20,6 +20,32 @@ const RecommandedCard = () => {
     slidesToScroll: 1,
     nextArrow: <ArrowButton direction="next" />,
     prevArrow: <ArrowButton direction="prev" />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const [showModal, setShowModal] = useState(false);
@@ -33,8 +59,8 @@ const RecommandedCard = () => {
   };
 
   return (
-    <div>
-      <div className="flex justify-between px-4">
+    <div className="mt-20 ">
+      <div className="flex justify-between px-4 ">
         <h1 className="text-xl font-semibold">Recommanded</h1>
         <div>
           <button

@@ -19,6 +19,32 @@ const Card = () => {
     slidesToScroll: 1,
     nextArrow: <ArrowButton direction="next" />,
     prevArrow: <ArrowButton direction="prev" />,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   const [showModal, setShowModal] = useState(false);
@@ -32,12 +58,12 @@ const Card = () => {
   };
 
   return (
-    <div>
+    <div className="my-10">
       <div className="flex justify-between px-4">
         <h1 className="text-xl font-semibold">Popular</h1>
-        <div>
+        <div className="hidden md:block">
           <button
-            className="mr-10 text-orange-500 font-semibold"
+            className="mr-10 text-orange-500 font-semibold "
             onClick={openModal}
           >
             Add more

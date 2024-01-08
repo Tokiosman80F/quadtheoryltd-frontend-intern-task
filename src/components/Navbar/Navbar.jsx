@@ -18,14 +18,14 @@ const Navbar = () => {
             </div>
             <input
               type="text"
-              className="block w-96 p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              className="block md:w-96 p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
               placeholder="Search audiobook"
             />
           </div>
           {/* menu */}
           <DropdownMenu></DropdownMenu>
         </div>
-        <span className="bg-orange-500 rounded-full p-2 text-white">
+        <span className="hidden md:flex bg-orange-500 rounded-full p-2 text-white  ">
           <LuUser2 className="" />
         </span>
       </div>
