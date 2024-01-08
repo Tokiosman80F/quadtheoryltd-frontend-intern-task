@@ -4,7 +4,7 @@ const FoodCard = ({item}) => {
   return (
     <div className="max-w-sm  rounded overflow-hidden shadow-lg">
       <img
-        className="w-full rounded-2xl h-[250px] "
+        className="w-full object-cover rounded-2xl h-[250px] "
         src={item.ImageUrl}
 
       />

@@ -1,8 +1,8 @@
 import { createContext, useEffect, useState } from "react";
 import Banner from "./components/Banner/Banner";
-import Card from "./components/Card/Card";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import Card from "./components/Card/Card";
 
 export const FoodDataContext = createContext(null);
 function App() {
@@ -24,6 +24,7 @@ function App() {
       <div className="max-w-screen-lg mx-auto">
       <Navbar></Navbar>
       <Banner></Banner>
+      {/* <Card></Card> */}
       <Card></Card>
       </div>
       <Footer></Footer>
